@@ -17,12 +17,14 @@ public static void main(String[] args) {
 	// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
 
 	// 4. Print ALL the digits of of Pi (hint: use a loop)
-private void speak(pi); {
-	// TODO Auto-generated method stub
 
+	// TODO Auto-generated method stub
+for(int i = 0;i<1000000;i++) {
+	speak(pi.charAt(i));
+}
 }
 	// 5. Use the speak() method to speak all the digits of Pi.
-}
+
 	// [ADVANCED]
 	// *6. Get a character from the user using the getInputFromUser() method
 	// *7. Compare the users' char to the next digit of Pi
